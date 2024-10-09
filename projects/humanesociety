@@ -1,0 +1,22 @@
+---
+layout: project
+type: project
+image: img/cotton/cotton-square.png
+title: "Humane Society"
+date: 2014
+published: true
+labels:
+  - HTML
+  - GitHub
+summary: "A bootstrap web design using HTML in vs. code."
+---
+
+<hr>
+
+<pre>
+
+</pre>
+
+<hr>
+
+Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
