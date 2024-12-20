@@ -3,7 +3,6 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages 2
 
@@ -34,7 +33,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       # Install Ruby using ruby-build
       - name: Install Ruby using ruby-build
         run: |
@@ -45,7 +44,7 @@ jobs:
           # Install ruby-build (a tool for installing Ruby versions)
           git clone https://github.com/rbenv/ruby-build.git
           cd ruby-build
-          ./install.sh
+          sudo ./install.sh
 
           # Install Ruby version 3.1.4 using ruby-build
           ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
