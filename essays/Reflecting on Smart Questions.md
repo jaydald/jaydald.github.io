@@ -58,3 +58,5 @@ As software engineers, we are supposed to think critically and analytically and 
 
 ## Conclude
 In summary, I think it is important to note the importance of smart questions and how things can be proposed to get adequate responses or collaboration from other developers. The benefits of asking clear, concise, well-researched, and structured questions foster collaboration. The principles of asking smart questions lead to more effective problem-solving and better communication in the software engineering field. In future applications, it is important to reflect on how applying smart questioning techniques will both improve personal learning and collaborative problem-solving in the future. 
+
+##AI was used as a tool to help clean up grammar and write an outline for the clear-concise understanding of my writing. 
