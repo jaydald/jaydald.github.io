@@ -1,4 +1,3 @@
-
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
@@ -34,22 +33,47 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+      
+      # Install Ruby using ruby-build
+      - name: Install Ruby using ruby-build
+        run: |
+          # Install required dependencies for building Ruby
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev
+
+          # Install ruby-build (a tool for installing Ruby versions)
+          git clone https://github.com/rbenv/ruby-build.git
+          cd ruby-build
+          ./install.sh
+
+          # Install Ruby version 3.1.4 using ruby-build
+          ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
+
+          # Mark the Ruby installation as complete
+          touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
+
+      # Set up Ruby environment using ruby/setup-ruby
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+          ruby-version: '3.1.4'
+          bundler-cache: true
+          cache-version: 0
+
+      # Install dependencies for your Jekyll site
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      # Build the Jekyll site
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      # Upload the build artifact to be used by the deploy job
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
@@ -62,4 +86,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 this is the workflow I have now. 
+        uses: actions/deploy-pages@v4
