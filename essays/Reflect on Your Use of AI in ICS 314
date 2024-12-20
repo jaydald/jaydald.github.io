@@ -10,6 +10,7 @@ labels:
   - Answers
 ---
 
+
 AI Reflection Essay in ICS 314
 
 AI has become a significant influence on education, particularly in software engineering. In ICS 314, I utilized AI tools such as ChatGPT and Claude AI to create a variety of effective programs for class. These tools assisted with tasks like writing code, debugging, and learning new concepts, enhancing my overall educational experience.
