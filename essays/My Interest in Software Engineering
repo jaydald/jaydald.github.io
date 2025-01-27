@@ -1,0 +1,29 @@
+---
+layout: essay
+type: essay
+title: "My Interest in Software Engineering"
+# All dates must be YYYY-MM-DD format!
+date: 2024-01-25
+published: true
+labels:
+  - Interests
+---
+
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+
+## Introduction
+
+My interest in software developement sparked when I built my first gaming pc. As this process is completely refined nowdays, and requires little to no programming, I began to wonder what the process was behind making computers function the way they do. Because of this, I started my journey in software design and learning the ins and outs of what a computer is capable of behind the scenes via programming. My goal is to get a degree in computer science and pursue a job in the field. The purpose of this essay is to delve into my interests in software engineering, outline the skills I aspire to develop, and discuss the future goals I hope to achieve in this dynamic and innovative field.
+
+## Where my interest strikes
+
+Personally, I have developed an eye for back end development. I feel as though I can cognatively process the back-end development in a more efficient manner versus front end, and I enjoy the challenge of communicating functions between the two. Additionally, I have an interest data science, which is where my degree focus stands currently. I love the innovation and creativity of software design, as the problem solving aspect is what interests me most. In projects like collaborative group programming, the cultivation of our different styles of coding meshing together to build a program is quite intruiguing. The challege of connecting the dots between one function someone wrote, to a function call in another file that someone else made, is very interesting. 
+
+Some technical skills I would like to gain are in advanced programming in software design. Some soft skils that could compliment and support my growth in the field could be team collaboration and project management. In this class I hope to implement these key parts to create a good foundation for my future in the field.
+
+Some experiences I would like to have before I enter the world of software development are internships and open-source contributions. My long-term goals are to have a job that allows me to creatively collaborate on programs that make a change in the world. I feel as though every job could have a positive impact on humans alike. I feel as though I would strive in an environment where I can collaborate with a team of equals that are exceptionally versed and challenge themselves aswell as me, to create refined programs that work effectively. 
+
+## Conclusion
+
+In this class, I hope to refine my skills and become a stronger programmer and collaborator with a team. I aim to build a solid foundation in both technical and soft skills that will prepare me for real-world challenges in the software engineering field. Additionally, I hope to secure an internship that not only furthers my development but also provides hands-on experience in tackling complex problems, contributing to impactful projects, and shaping my career path as a software engineer.
+
