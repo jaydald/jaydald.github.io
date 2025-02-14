@@ -1,0 +1,30 @@
+---
+layout: essay
+type: essay
+title: "Reflecting On Coding Styles!"
+# All dates must be YYYY-MM-DD format!
+date: 2025-02-13
+published: true
+labels:
+  - Interests
+---
+
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+
+## Introduction
+
+Coding standards are far more than formatting and syntax. They are entirely responsible for improving code quality. They make the code more readable, maintainable, and seamless for integration. 
+
+## Where my interest strikes
+
+Personally, readability-wise, I feel that code is easier for others to understand and build off of when you have "pretty code." It makes collaboration more consistent and decreases future debugging by allowing collaborators to catch mistakes easily. 
+
+On the technical side, I may find ESLint in VSCode frustrating, but over time, it helped me write cleaner and better-structured code. The rules seemed very strict and meticulous. However, ESLint is just a tool to help you get into the habit of creating quality code. 
+
+## Finding a balance
+
+Adapting standards to different projects requires a lot of flexibility. It is difficult to avoid creativity-restricting rules that do not allow developers' styles to show through their code. Standards should improve code quality, not hinder creativity. Flexibility is the most important thing. 
+
+## Conclusion
+
+Coding standards may seem meticulous, tedious, and obstructive at first, but they create consistent, high-quality programs. Using ESLint has allowed me to understand JavaScript more in-depth, making me well-versed in the dos and don'ts of project design and implementation. Following coding standards is definitely a skill worth noting and adding to your repertoire. 
