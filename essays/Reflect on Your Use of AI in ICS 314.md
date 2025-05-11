@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflect on Your Use of AI in ICS 314"
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-17
+date: 2025-05-11
 published: true
 labels:
   - Questions
