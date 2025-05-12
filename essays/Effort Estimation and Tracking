@@ -1,0 +1,37 @@
+---
+layout: essay
+type: essay
+title: "Effort Estimation and Tracking"
+# All dates must be YYYY-MM-DD format!
+date: 2025-05-11
+published: true
+labels:
+  - Interests
+---
+
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+
+## Introduction
+
+As part of ICS 314, we were tasked with developing a Vercel deployment for our final project, applying all the skills we had learned throughout the semester. Alongside the development process, we had the optional opportunity to track our time and effort for extra credit. The following reflection summarizes my approach to effort estimation, my takeaway, and the value of tracking both estimated and actual time during the project.
+
+## Estimation of Effort
+
+To start, we were encouraged to estimate how long each issue would take to complete. I initially based my estimates on how familiar I was with the task. For example, updating the database to query seemed simple—I expected it to take about 10 minutes based on past experience. However, I spent closer to 6 hours trying to troubleshoot login issues etc. That experience taught me the importance of giving myself a buffer by overestimating rather than underestimating. From then on, I began to estimate time more conservatively, often doubling my original guess based on similar tasks I or my teammates did.
+
+
+## Value of Effort Estimates
+
+Even when our estimates weren’t completely accurate, making them ahead of time was still helpful. Estimating gave us a rough timeline for each task and made allocating work fairly within the group easier. If someone had a heavier workload based on their estimates, they could pass additional tasks to others with more availability. This kept our workflow balanced and efficient.
+
+## Insights from Actual Effort
+
+Tracking actual effort provided much insight into how well we understood each task. When the time spent was close to our estimate, it showed we had a solid grasp of the problem. In cases where we finished faster, it often meant we were well-prepared. Conversely, tasks that took significantly longer than estimated usually required us to research outside sources, like looking up documentation or using ChatGPT.
+
+## How I Tracked Effort
+
+I estimated the time spent on each file for coding work based on start and end times. I also estimated the time spent troubleshooting ESLint and Bootstrap implementation errors. At one point, I tested using a manual timer to compare results, which helped me better estimate non-coding effort moving forward. However, I only did this once since pausing and resuming a timer for long tasks with breaks became tedious.
+
+## Tracking Overhead
+
+Effort tracking required minimal overhead and didn’t interfere with my productivity. Thanks to my ability to keep track of my time, most of my coding time was logged with ease. Estimating non-coding effort took minimal time, as I could usually rely on experience and reasonable guesswork.
