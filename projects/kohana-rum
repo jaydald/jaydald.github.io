@@ -1,0 +1,62 @@
+---
+layout: project
+type: project
+image: img/kohana-rum-cover.png
+title: "Kohana Rum Website Redevelopment"
+date: 2026
+published: true
+labels:
+  - React
+  - JavaScript
+  - Web Development
+  - GitHub
+Summary: "A complete redevelopment of the Kohana Rum website using React for a modern, responsive user experience."
+---
+
+<hr>
+
+🍹 **Kohana Rum Website Redevelopment**  
+_A full redevelopment of the official Kohana Rum website to enhance performance, usability, and visual appeal._
+
+[**View on GitHub**](https://github.com/jaydald/wod-ko-hana-react.git)
+
+---
+
+### Overview
+
+This project involved redesigning and redeveloping the Kohana Rum website (https://www.kohanarum.com/) locally using React. The goal was to modernize the website’s design and improve responsiveness and usability, while preserving the brand identity. The project was developed in a localhost environment for testing and development purposes.
+
+---
+
+### My Contributions
+
+- Recreated the entire Kohana Rum website locally using React  
+- Developed responsive layouts and interactive components  
+- Ensured brand consistency and improved user experience through design choices  
+
+---
+
+### Technologies Used
+
+- **React** – Frontend framework for building dynamic UI  
+- **JavaScript** – Core programming language for app logic  
+- **ESLint** – Maintained code quality through linting  
+- **Localhost Development** – Testing and running the app locally  
+
+---
+
+### What I Learned
+
+This project helped me strengthen my skills in React development and local environment setup. I learned how to rebuild an existing website from scratch with modern tools while maintaining brand integrity. It also gave me hands-on experience in responsive design and component-based UI architecture.
+
+---
+
+### Repository & Access
+
+- **GitHub Repository:** [wod-ko-hana-react](https://github.com/jaydald/wod-ko-hana-react.git)  
+
+---
+
+### Screenshots
+
+![Kohana Rum Website](img/kohana-rum-cover.png)
