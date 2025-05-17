@@ -18,7 +18,8 @@ Summary: "A bootstrap web design deployed in Vercel and coded in a VS environmen
 🎶 **Manoa’s Got Music**  
 _A place for the musically minded of UH to meet and coordinate_
 
-[**View on GitHub**](https://github.com/jogarces/ics-313-text-game)
+[**View on GitHub**](https://github.com/jogarces/ics-313-text-game)  
+[**Live Site**](https://manoas-got-music.github.io/)
 
 ---
 
@@ -71,6 +72,14 @@ Manoa’s Got Music is a web application that allows students to:
 
 ---
 
+### What I Learned
+
+- 🤝 How to **collaborate with a team** on a full-stack project  
+- 🗄 Gained experience with **backend development**, especially working with **databases and queries** using Prisma and PostgreSQL  
+- 🧠 Improved troubleshooting skills and learned how to resolve configuration issues in a shared environment  
+
+---
+
 ### Organization & Repositories
 
 - **GitHub Organization:** `manoas-got-music`  
@@ -80,7 +89,7 @@ Manoa’s Got Music is a web application that allows students to:
 
 ### 🌐 Deployment
 
-- **Live App:** Vercel  
+- **Live App:** [https://manoas-got-music.github.io/](https://manoas-got-music.github.io/)  
 - **CI Status:** Active and passing  
 
 ---
