@@ -1,0 +1,133 @@
+---
+layout: project
+type: project
+image: img/cotton/cotton-square.png
+title: "Manoa’s Got Music"
+date: 2026
+published: true
+labels:
+  - VSCODE
+  - POSTGRESQL
+  - Bootstrap
+  - GitHub
+Summary: "A bootstrap web design deployed in Vercel and coded in a VS environment."
+---
+
+<hr>
+
+🎶 **Manoa’s Got Music**  
+_A place for the musically minded of UH to meet and coordinate_
+
+[**View on GitHub**](https://github.com/jogarces/ics-313-text-game)
+
+---
+
+### Overview
+
+**The Problem:**  
+Many UH students are musically talented, but lack an easy way to find others with similar tastes and compatible musical abilities. This prevents informal jam sessions and the formation of musical groups.
+
+**The Solution:**  
+Manoa’s Got Music is a web application that allows students to:
+
+- Create a profile with their musical tastes, skills, and goals  
+- Share links to performances (YouTube/SoundCloud)  
+- Connect with other students for collaboration or jam sessions  
+
+---
+
+### Technologies Used
+
+- **Next.js** – TypeScript-based framework  
+- **React** – Component-based UI  
+- **React Bootstrap** – Styling framework  
+- **React Hook Form** – Form management  
+- **Prisma** – Type-safe ORM for database  
+
+---
+
+### Project Goals
+
+- Foster musical collaboration among UH students  
+- Enable exploration of new genres and instruments  
+- Make it easy to find compatible musicians for jamming or bands  
+
+---
+
+### Features
+
+- 🎵 Create a musical profile (genres, instruments, goals)  
+- 🔗 Share performance links (YouTube, SoundCloud)  
+- 🔍 Filter and browse musicians by interests and availability  
+- 📬 Contact other users to organize jam sessions  
+
+---
+
+### Organization & Repositories
+
+- **GitHub Organization:** `manoas-got-music`  
+- **Source Code:** [`manoas-source-code`](https://github.com/manoas-got-music/manoas-source-code)  
+
+---
+
+### 🌐 Deployment
+
+- **Live App:** Vercel  
+- **CI Status:** Active and passing  
+
+---
+
+### 👥 User Guide
+
+Manoa’s Got Music is a free platform created by UH students for UH students.
+
+You can:
+
+- Create a profile with your instruments, genres, and goals  
+- Add videos or audio links of your music  
+- Explore profiles and message others to set up jam sessions  
+
+Whether you’re casually looking to jam or forming the next great band — it’s your choice!
+
+---
+
+### 📅 Project Boards
+
+- M1 Project Board  
+- M2 Project Board  
+- M3 Project Board  
+
+---
+
+### 🎨 Mockups
+
+Mockups hosted locally in the `/img` folder:
+
+- Sign In Page  
+- Sign Up Page  
+- Browse Musicians Page  
+- User Profile Page  
+- Jam Session Page  
+
+---
+
+### 🛠 Developer Guide
+
+#### Prerequisites
+
+- Node.js (LTS)  
+- npm or yarn  
+- PostgreSQL  
+- Git  
+- Optional: VS Code  
+
+#### Getting Started
+
+```bash
+git clone https://github.com/manoas-got-music/manoas-source-code.git
+cd manoas-source-code
+npm install
+cp .env.example .env
+# Edit .env
+npx prisma db push
+npm run dev
