@@ -63,6 +63,14 @@ Manoa’s Got Music is a web application that allows students to:
 
 ---
 
+### Your Contributions
+
+- 🛠 Troubleshot and resolved **ESLint** configuration and runtime errors  
+- 🧩 Debugged and fixed **database login and query** issues using Prisma  
+- ✍️ Wrote and styled the **About** page content  
+
+---
+
 ### Organization & Repositories
 
 - **GitHub Organization:** `manoas-got-music`  
