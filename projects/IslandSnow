@@ -1,0 +1,63 @@
+---
+layout: project
+type: project
+image: img/islandsnow-cover.png
+title: "IslandsNow with Next.js 2 Deployment"
+date: 2026
+published: true
+labels:
+  - Next.js
+  - React
+  - JavaScript
+  - Web Development
+  - GitHub
+Summary: "A Next.js 2 based redeployment of the IslandsNow website focused on performance and modern web features."
+---
+
+<hr>
+
+🏝️ **IslandsNow with Next.js 2 Deployment**  
+_A modern redevelopment of the IslandsNow website using Next.js 2 to enhance performance and user experience._
+
+[**View on GitHub**](https://github.com/jaydald/islandsnow-nextjs2.git)
+
+---
+
+### Overview
+
+This project involved redeploying the IslandsNow website using Next.js 2 to take advantage of server-side rendering, improved routing, and enhanced performance. The goal was to modernize the site architecture and improve load times while maintaining the core content and branding.
+
+---
+
+### My Contributions
+
+- Redeveloped the IslandsNow website using Next.js  
+- Implemented concepts learned in class  
+- Worked on routing, components, and layout improvements for a better user experience  
+
+---
+
+### Technologies Used
+
+- **Next.js 2** – React framework with server-side rendering  
+- **React** – UI library for building reusable components  
+- **JavaScript/TypeScript** – Core scripting languages  
+- **Vercel (optional)** – Deployment platform (if deployed)  
+
+---
+
+### What I Learned
+
+Through this project, I deepened my understanding of Next.js 2, especially server-side rendering and routing. I also gained experience optimizing React applications for performance and maintaining a clean component structure.
+
+---
+
+### Repository & Access
+
+- **GitHub Repository:** [islandsnow-nextjs2](https://github.com/jaydald/islandsnow-nextjs2.git)  
+
+---
+
+### Screenshots
+
+![IslandsNow Website](img/islandsnow-cover.png)
